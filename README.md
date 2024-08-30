@@ -14,6 +14,7 @@ solution:
           This Python script demonstrate the basic employee management system using object-oriented principles. It defines an Employee class with private attributes (name, family, salary, department), a class variable to track the number of employees, and methods for calculating average salary and displaying employee data. The FulltimeEmployee class inherits from Employee, representing full-time staff. Employees are created in the main function, added to a list, and their average salary is computed using the average_salary() method. The program demonstrates encapsulation, inheritance, and object creation while showcasing basic employee management operations. 
 
 output:
+
 The count of an employee is: 4
 Average salary of an employee is: 148750.0
 
@@ -27,6 +28,7 @@ solution:
           This Python script uses NumPy to create a random 4x5 matrix, identify the maximum value in each row, and replace it with a specified value (0 in this case). The replace_maxmium() function uses NumPy's where method to locate the maximum value along the specified axis and replaces it with the given value, while retaining other elements. In the main() function, a random vector of 20 numbers is generated, reshaped into a 4x5 matrix, and the maximum values in each row are replaced with zeros. This demonstrates array manipulation and conditional replacement using NumPy.
 
 output:
+
 [11.08042947 14.37411928  5.41447214 17.42042542 15.83981412 15.16986717
   6.74211054 18.47515711  6.34841565 18.46563753  6.17364994 11.80403328
   6.50543414  3.47420345  3.70013368  4.57851659 10.06643835 11.82047234
